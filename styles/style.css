@@ -1,0 +1,19 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    padding: 5px;
+}
+
+.account-check {
+    padding: 5px;
+}
+/* Form */
+
+
+/* Footer */
