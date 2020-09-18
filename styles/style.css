@@ -16,19 +16,26 @@ body{
     background-color: #ECEEF1;
 }
 
+
+.text-size-13 {
+    font-size: 13px;
+}
+
+.light-color {
+    color: #49494c;
+}
+
 /* header */
 .header {
     padding: 10px 30px;
     display: flex;
     justify-content: flex-end;
 }
-.account-info{
-    font-size: 12px;
-}
+
 .account-check {
     padding: 5px;
 }
-.forgot-password{
+.hyperlink{
     text-decoration: none;
     color: #0077C5;
 }
@@ -45,12 +52,13 @@ body{
 .form-title{
     text-align: center;
 }
-.logo-wrapper {
+.logo-wrapper {    
     display: flex;  
-    justify-content: space-around;      
+    justify-content: space-around;   
+    padding-top: 5px;   
 }
 
-.logo-icons {
+.logo-icons {    
     display: flex;
     align-items: center;    
     padding: 5px 5px;
@@ -63,6 +71,23 @@ body{
 }
 .caption{
     color: #868686;
+}
+
+.form-info{
+    text-align: center;    
+}
+
+.form-heading {
+    font-weight: normal;    
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    background-color: #ffffff;
+    border: 1px solid #bfbdca;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 /* Footer */
