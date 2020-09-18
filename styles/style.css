@@ -1,184 +1,199 @@
 /* General Style */
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
-.btn-blue{
-    background: #0077C5;
-    border: 1px solid #0077C5;
-    border-radius: 4px;
-    color: #ffffff;
-    text-transform: capitalize;
+
+.btn-blue {
+  background: #0077c5;
+  border: 1px solid #0077c5;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
 }
-body{
-    background-color: #ECEEF1;
+
+body {
+  background-color: #eceef1;
 }
 
 .text-size-13 {
-    font-size: 13px;
+  font-size: 13px;
 }
-.text-size-12{
-    font-size: 12px;
+
+.text-size-12 {
+  font-size: 12px;
 }
-.text-size-14{
-    font-size: 14px;
+
+.text-size-14 {
+  font-size: 14px;
 }
 
 .light-color {
-    color: #49494c;
+  color: #49494c;
 }
 
 /* header */
 .header {
-    padding: 10px 30px;
-    display: flex;
-    justify-content: flex-end;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
 }
-.account-info{
-    padding-right: 5px;
+
+.account-info {
+  padding-right: 5px;
 }
+
 .account-check {
-    padding: 5px;
+  padding: 5px;
 }
-.hyperlink{
-    text-decoration: none;
-    color: #0077C5;
+
+.hyperlink {
+  text-decoration: none;
+  color: #0077c5;
 }
-.signup-btn{
-    padding: 8px 20px;
-    height: 38px;
+
+.signup-btn {
+  padding: 8px 20px;
+  height: 38px;
 }
 
 /* Form */
-.form-container{
-    width: 380px;
-    margin: auto;
-    margin-top: 25px;
+.form-container {
+  width: 380px;
+  margin: auto;
+  margin-top: 25px;
 }
-.form-title{
-    text-align: center;
+
+.form-title {
+  text-align: center;
 }
+
 .logo-wrapper {    
-    display: flex;  
-    justify-content: space-around;   
-    padding-top: 5px;   
+  display: flex;  
+  justify-content: space-around;   
+  padding-top: 5px;   
 }
 
 .logo-icons {    
-    display: flex;
-    align-items: center;    
-    padding: 5px 5px;
+  display: flex;
+  align-items: center;    
+  padding: 5px 5px;
 }
 
 .logo-icons img {
-    height: 34px;
-    width: 34px;
-    padding-right: 8px;
-    object-fit: contain;
-}
-.caption{
-    color: #868686;
-    font-size: 20px;
+  height: 34px;
+  width: 34px;
+  padding-right: 8px;
+  object-fit: contain;
 }
 
-.form-info{
-    text-align: center; 
-    margin: auto;   
+.caption {
+  color: #868686;
+  font-size: 20px;
+}
+
+.form-info {
+  text-align: center; 
+  margin: auto;   
 }
 
 .form-heading {
-    font-weight: normal;    
-    margin-bottom: 20px;
+  font-weight: normal;    
+  margin-bottom: 20px;
 }
 
 .signup-form {
-    background-color: #ffffff;
-    border: 1px solid #bfbdca;
-    border-radius: 2px;
-    padding: 30px;
-    margin-top: 10px;
-    padding-bottom: 0;
+  background-color: #fff;
+  border: 1px solid #bfbdca;
+  border-radius: 2px;
+  padding: 30px;
+  margin-top: 10px;
+  padding-bottom: 0;
 }
-fieldset{
-    border: none;
-    padding: 0;
-    margin-top: 20px;
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-top: 20px;
 }
-.input-group{
-    margin-bottom: 30px;
-    position: relative;
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
 }
-.input-group input{
-    margin-top: 15px;
-    width: 100%;
-    padding: 7px 10px;
-    border: 1px solid #b5b6b7;
-    border-radius: 2px;
+
+.input-group input {
+  margin-top: 15px;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #b5b6b7;
+  border-radius: 2px;
 }
-.input-group input:focus{
-    box-shadow: 0 0 10px #0077C5c4;
-    outline: none;
+
+.input-group input:focus {
+  box-shadow: 0 0 10px #0077c5c4;
+  outline: none;
 }
 
 .input-group .iconify {
-    position: absolute;
-    bottom: 5px;
+  position: absolute;
+  bottom: 5px;
 }
 
 .password-lock {    
-    right: 10px;    
-    font-size: 22px;
-    color: #808080;
+  right: 10px;    
+  font-size: 22px;
+  color: #808080;
 }
 
 .help-text {
-    margin-top: 5px;
-    top: 0;
-    right: 0;
-    bottom: 0;
+  margin-top: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .register-btn {
-    width: 100%;
-    padding: 11px;
-    margin-top: 1px;
+  width: 100%;
+  padding: 11px;
+  margin-top: 1px;
 }
 
 .terms-info {
-    margin-top: 30px;
-    text-align: center;
-    padding: 5px 20px;
-    font-style: italic;
-    line-height: 22px;
-    word-spacing: 2px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px 20px;
+  font-style: italic;
+  line-height: 22px;
+  word-spacing: 2px;
 }
 
 /* form footer */
-.captcha{
-    padding: 15px 0;
-    text-align: center;
-    background: #ececec;
-    margin: 25px -30px 0;
+.captcha {
+  padding: 15px 0;
+  text-align: center;
+  background: #ececec;
+  margin: 25px -30px 0;
 }
 
 
 /* Footer */
 .footer {
-    text-align: center;
-    width: 54%;    
-    margin: auto;
-    margin-top: 28px;
+  text-align: center;
+  width: 54%;    
+  margin: auto;
+  margin-top: 28px;
 }
 
 .nav-link .hyperlink {
-    color: #49494c;
-    padding: 5px;
+  color: #49494c;
+  padding: 5px;
 }
 
 .copyright-info {    
-    margin-bottom: 20px;
-    line-height: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
 }
