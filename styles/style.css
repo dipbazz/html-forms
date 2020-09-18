@@ -37,7 +37,9 @@ body{
     display: flex;
     justify-content: flex-end;
 }
-
+.account-info{
+    padding-right: 5px;
+}
 .account-check {
     padding: 5px;
 }
@@ -49,6 +51,7 @@ body{
     padding: 8px 20px;
     height: 38px;
 }
+
 /* Form */
 .form-container{
     width: 380px;
@@ -115,6 +118,10 @@ fieldset{
     border: 1px solid #b5b6b7;
     border-radius: 2px;
 }
+.input-group input:focus{
+    box-shadow: 0 0 10px #0077C5c4;
+    outline: none;
+}
 
 .input-group .iconify {
     position: absolute;
@@ -157,6 +164,8 @@ fieldset{
     margin: 25px -30px 0;
 }
 
+
+/* Footer */
 .footer {
     text-align: center;
     width: 54%;    
@@ -173,4 +182,3 @@ fieldset{
     margin-bottom: 20px;
     line-height: 20px;
 }
-/* Footer */
