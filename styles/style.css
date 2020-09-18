@@ -17,7 +17,6 @@ body{
     background-color: #ECEEF1;
 }
 
-
 .text-size-13 {
     font-size: 13px;
 }
@@ -105,6 +104,7 @@ fieldset{
 }
 .input-group{
     margin-bottom: 30px;
+    position: relative;
 }
 .input-group input{
     margin-top: 15px;
@@ -112,6 +112,39 @@ fieldset{
     padding: 7px 10px;
     border: 1px solid #b5b6b7;
     border-radius: 2px;
+}
+
+.input-group .iconify {
+    position: absolute;
+    bottom: 5px;
+}
+
+.password-lock {    
+    right: 10px;    
+    font-size: 22px;
+    color: #808080;
+}
+
+.help-text {
+    margin-top: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 11px;
+    margin-top: 1px;
+}
+
+.terms-info {
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px 20px;
+    font-style: italic;
+    line-height: 22px;
+    word-spacing: 2px;
 }
 
 /* Footer */
