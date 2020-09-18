@@ -21,6 +21,12 @@ body{
 .text-size-13 {
     font-size: 13px;
 }
+.text-size-12{
+    font-size: 12px;
+}
+.text-size-14{
+    font-size: 14px;
+}
 
 .light-color {
     color: #49494c;
@@ -46,7 +52,7 @@ body{
 }
 /* Form */
 .form-container{
-    width: 350px;
+    width: 380px;
     margin: auto;
     margin-top: 25px;
 }
@@ -66,16 +72,18 @@ body{
 }
 
 .logo-icons img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     padding-right: 8px;
+    object-fit: contain;
 }
 .caption{
     color: #868686;
 }
 
 .form-info{
-    text-align: center;    
+    text-align: center; 
+    margin: auto;   
 }
 
 .form-heading {
@@ -87,7 +95,7 @@ body{
     background-color: #ffffff;
     border: 1px solid #bfbdca;
     border-radius: 2px;
-    padding: 20px;
+    padding: 25px;
     margin-top: 10px;
 }
 fieldset{
@@ -101,7 +109,7 @@ fieldset{
 .input-group input{
     margin-top: 15px;
     width: 100%;
-    padding: 10px;
+    padding: 7px 10px;
     border: 1px solid #b5b6b7;
     border-radius: 2px;
 }
