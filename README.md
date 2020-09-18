@@ -2,12 +2,12 @@
 
 # HTML form page 
 
-> This project is about cloning a create account form of [mint](https://www.mint.com/)
+> This project is about cloning a signup form of [mint](https://www.mint.com/)
 
 ![screenshot](./app_screenshot.png)
 
 The features of this project are listed as below:
-1. Have a Create Account Form 
+1. Have a SignUp Form 
     - With input types: Email, Phone number and Password 
     - Has Create Account Button 
     - Terms and Privacy statement links
