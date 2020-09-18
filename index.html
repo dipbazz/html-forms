@@ -34,13 +34,18 @@
      <title>html signup form</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/style.css"> 
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
  <body>
      <header class="header">
-         <p class="account-check">Already have an Intuit account? </p>
-         <a href="#"> I forgot my User ID or Password</a>
-         <button type="button">
-             Sign In 
+         <div class="account-info">
+             <p class="account-check">Already have an Intuit account? </p>
+             <a href="#" class="forgot-password"> I forgot my User ID or Password</a>
+         </div>
+         <button type="button" class="btn-blue signup-btn">
+            <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>
+            <span>Sign In</span>
          </button>
      </header>
      

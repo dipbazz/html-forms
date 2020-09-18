@@ -3,15 +3,35 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-blue{
+    background: #0077C5;
+    border: 1px solid #0077C5;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: capitalize;
 }
 
 /* header */
 .header {
-    padding: 5px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-end;
 }
-
+.account-info{
+    font-size: 12px;
+}
 .account-check {
     padding: 5px;
+}
+.forgot-password{
+    text-decoration: none;
+    color: #0077C5;
+}
+.signup-btn{
+    padding: 8px 20px;
+    height: 38px;
 }
 /* Form */
 
