@@ -35,5 +35,23 @@
 }
 /* Form */
 
+.logo-wrapper {
+    width: 300px;
+    display: flex;  
+    justify-content: space-between;      
+}
+
+.logo-icons {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;    
+    padding: 5px 5px;
+}
+
+.logo-icons img {
+    height: inherit;
+    width: inherit;
+}
 
 /* Footer */
