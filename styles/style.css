@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 .btn-blue{
     background: #0077C5;
@@ -88,6 +89,21 @@ body{
     border-radius: 2px;
     padding: 20px;
     margin-top: 10px;
+}
+fieldset{
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.input-group{
+    margin-bottom: 30px;
+}
+.input-group input{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b5b6b7;
+    border-radius: 2px;
 }
 
 /* Footer */
