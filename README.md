@@ -63,6 +63,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - icons used from [iconify](https://iconify.design/)
+- intuit, mint, quickbooks, turbotax icons where downloaded from [here](https://accounts.intuit.com/signup.html)
 
 ## 📝 License
 
