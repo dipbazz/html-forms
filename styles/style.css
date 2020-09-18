@@ -12,6 +12,9 @@
     color: #ffffff;
     text-transform: capitalize;
 }
+body{
+    background-color: #ECEEF1;
+}
 
 /* header */
 .header {
@@ -34,24 +37,32 @@
     height: 38px;
 }
 /* Form */
-
+.form-container{
+    width: 350px;
+    margin: auto;
+    margin-top: 25px;
+}
+.form-title{
+    text-align: center;
+}
 .logo-wrapper {
-    width: 300px;
     display: flex;  
-    justify-content: space-between;      
+    justify-content: space-around;      
 }
 
 .logo-icons {
     display: flex;
-    height: 30px;
-    width: 30px;
     align-items: center;    
     padding: 5px 5px;
 }
 
 .logo-icons img {
-    height: inherit;
-    width: inherit;
+    height: 25px;
+    width: 25px;
+    padding-right: 8px;
+}
+.caption{
+    color: #868686;
 }
 
 /* Footer */
