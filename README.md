@@ -2,7 +2,15 @@
 
 # HTML form page 
 
-> This project is about cloning a signup form of [mint](https://www.mint.com/)
+## Definition 
+
+HTML form is a web page form in order to collect information from users. A form have different input type elements based on the requirement of data collection. 
+
+## About the Project 
+
+This project is about building a sign-up page for user registration by cloning from [mint](https://www.mint.com/) signup page. The sign-up form collects data from users: 
+- email address and 
+- phone number. 
 
 ![screenshot](./assets/app_screenshot.png)
 
