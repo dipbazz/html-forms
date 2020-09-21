@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>html signup form</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css"> 
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+ <body>
+     <header class="header">
+         <div class="account-info text-size-12" >
+             <p class="account-check light-color">Already have an Intuit account? </p>
+             <a href="#" class="hyperlink"> I forgot my User ID or Password</a>
+         </div>
+         <button type="button" class="btn-blue signup-btn">
+            <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>
+            <span>Sign In</span>
+         </button>
+     </header>
+
+     <div class="form-container">
+         <div class="form-title">
+            <figure>
+                <img src="assets/images/intuit-logo.png" alt="Intuit logo">
+            </figure>             
+         </div>
+         <div class="logo-wrapper">
+            <figure class="logo-icons">
+                <img src="assets/images/mint-icon.svg" alt="mint logo">
+                <figcaption class="caption">mint</figcaption>
+            </figure>
+           
+            
+            <figure class="logo-icons">
+                <img src="assets/images/qb_icon.png" alt="quickbooks logo">
+                <figcaption class="caption">quickbooks</figcaption>
+            </figure>
+
+            <figure class="logo-icons">
+                <img src="assets/images/turbotax-icon.svg" alt="turbotax logo">
+                <figcaption class="caption">turbotax</figcaption>
+            </figure>           
+
+         </div>
+         
+        <form class="signup-form" action="#" method="POST"> 
+            <section class="form-info">
+                <h2 class="form-heading light-color">Create an Intuit account</h2>                 
+                <p class="text-size-13 light-color">
+                    <span>One account for everything Intuit, including Mint.</span> 
+                    <br>
+                    <a href="#" class="hyperlink">Learn more</a>
+                </p>                
+            </section>
+            
+            <fieldset>
+
+                <div class="input-group">
+                    <label for="email" class="light-color text-size-14">Email Address</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="input-group">
+                    <label for="phone" class="light-color text-size-14">Phone (Recommended)</label>
+                    <input type="tel" name="phone" id="phone">
+                    <p class="text-size-12 help-text light-color">
+                        <small>Standard call, messaging or data rates may apply.</small>
+                    </p>
+                </div>
+                <div class="input-group">                    
+                    <label for="password" class="light-color text-size-14">Password</label>
+                    <input type="password" name="password" id="password">
+                    <span class="iconify password-lock" data-icon="la:lock-open-solid" data-inline="false"></span>
+                </div>
+
+                <button type="button" class="btn-blue register-btn">
+                    <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>
+                    <span>Create Account</span>
+                 </button>
+                 
+                 <div class="terms-info">
+                     <p class="text-size-12 light-color">                        
+                        By clicking Create account, you agree to our <br> 
+                        <a href="#" class="hyperlink">Terms</a> 
+                        and have read and acknowledge our 
+                        <a href="#" class="hyperlink">Privacy Statement.</a>                                               
+                    </p>
+                 </div>
+
+            </fieldset>
+
+            <div class="captcha text-size-12 light-color">
+                <small>
+                    Invisible reCAPTCHA by Google 
+                    <a href="#" class="hyperlink">Privacy Policy</a> 
+                    and 
+                    <a href="#" class="hyperlink">Terms of Use.</a>
+                </small>
+            </div>
+            
+        </form>
+
+     </div>
+
+     <footer class="footer text-size-12 light-color">
+         <nav class="nav-link "> 
+             <a href="#" class="hyperlink">Legal</a>
+             <a href="#" class="hyperlink">Privacy</a>
+             <a href="#" class="hyperlink">Security</a>
+         </nav>
+         <p class="copyright-info">
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. 
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+         </p>
+    </footer>
+     
+ </body>
+ </html> 
