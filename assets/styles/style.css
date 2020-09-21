@@ -74,7 +74,7 @@ body {
 .logo-wrapper {
   display: flex;
   justify-content: space-around;
-  padding-top: 5px;  
+  padding-top: 5px;
 }
 
 .logo-icons {
@@ -97,7 +97,7 @@ body {
 
 .form-info {
   text-align: center;
-  margin: auto; 
+  margin: auto;
 }
 
 .form-heading {
@@ -117,7 +117,7 @@ body {
 fieldset {
   border: none;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .input-group {
@@ -179,7 +179,6 @@ fieldset {
   background: #ececec;
   margin: 25px -30px 0;
 }
-
 
 /* Footer */
 .footer {
