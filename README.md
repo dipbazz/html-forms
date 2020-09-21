@@ -4,7 +4,7 @@
 
 > This project is about cloning a signup form of [mint](https://www.mint.com/)
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/app_screenshot.png)
 
 The features of this project are listed as below:
 1. Have a SignUp Form 
